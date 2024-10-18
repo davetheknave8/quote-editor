@@ -23,7 +23,6 @@ class QuotesController < ApplicationController
   end
 
   def edit
-    render :new, status: :unprocessable_entity
   end
 
   def update
